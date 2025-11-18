@@ -1,0 +1,48 @@
+html,body{
+    height:100%;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.mainContainer{
+    display:flex;
+    flex-direction: column;
+    border: 10px solid black;
+    border-radius:20px;
+    height:750px;
+    width:750px;
+    padding:20px;
+    background-color:#6293F0
+
+}
+
+.screen{
+    border:10px solid black;
+    border-radius:20px;
+    flex:1;
+    background-color:#A5F5FA;
+}
+
+.rowContainer{
+    display:flex;
+    flex-direction:row;
+    margin-top:10px;
+    flex:3;
+}
+.numberContainer,.operatorContainer{
+    border:10px solid black;
+    border-radius:20px;
+}
+.numberContainer{
+    padding:50px;
+    margin-right: 20px;
+    flex:3;
+}
+.operatorContainer{
+    padding:50px;
+    flex:1;
+}

@@ -25,7 +25,17 @@ body{
     border-radius:20px;
     flex:1;
     background-color:#A5F5FA;
+    display:flex;
+    flex-direction:row;
+    padding:30px;
+    align-items:center;
+    
 }
+.textData{
+    color: black;
+    
+}
+
 
 .rowContainer{
     display:flex;
@@ -36,13 +46,31 @@ body{
 .numberContainer,.operatorContainer{
     border:10px solid black;
     border-radius:20px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row-reverse;
+    background-color:#5578BD;
 }
 .numberContainer{
     padding:50px;
     margin-right: 20px;
     flex:3;
+    gap:10px;
+    justify-items: center;
+    align-items: center;
 }
 .operatorContainer{
     padding:50px;
+    margin-right: 20px;
     flex:1;
+    gap:10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.numberButton,.operatorButton{
+    border-radius:10px;
+    margin: 5px;
+    width:100px;
+    height:100px;
 }
